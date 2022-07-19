@@ -30,7 +30,8 @@ Aditionally, we created a histogram of fares
 
 <br/>
 
-Total Rides smmary table
+Total Rides summary table
+
 ![pyber_summary](./analysis/pyber_ride_summary.png)
 
 <sub>Figure 1.3 Total Rides summary table
