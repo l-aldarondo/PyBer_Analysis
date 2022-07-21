@@ -5,7 +5,7 @@ An exploratory analysis of rideshare data using Pandas libraries, and Matplotlib
 
 ## Overview of the Analysis
 
-The purpose of this project is to perform an exploratory analysis in some very large csv files and create several types of visualization to construct  a compelling story about the data. The objective is to produce an analysis and visualizations that will help our client to improve access to ride-sharing services and determine affordability for underserved neighborhoods.
+The purpose of this project is to perform an exploratory analysis of some very large csv files and create several types of visualization to construct a compelling story about the data. The objective is to produce an analysis and visualizations that will help our client to improve access to ride-sharing services and determine affordability for underserved neighborhoods.
 
 ### Customer's guidance:
 - Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. 
@@ -17,7 +17,7 @@ The purpose of this project is to perform an exploratory analysis in some very l
 
 ## Analysis
 ### Exploratory analysis
-As part of our exploratory analysis we created some basic charts to visualize and obtain a better understanding of our dataset. First we created a pie chart Fig 1.1, by analyzing this image we can see that there were 3 city types: **Urban, Suburban, Rural**
+As part of our exploratory analysis, we created some basic charts to visualize and obtain a better understanding of our dataset. First, we created a pie chart Fig 1.1. By analyzing this image we can see that there were 3 city types: **Urban, Suburban, Rural**
 
 <br/>
 
@@ -35,7 +35,7 @@ Then we used .describe() method to obtain some descriptive statistics about the 
 
 <sub> Figure 1.3 Statistical data
 
-And, we created a histogram (Figure 1.2) of total fares distribution to better understand the fares per type and used 
+Additionally, we created a histogram (Figure 1.2) of total fares distribution to better understand the fares per type and used 
 
 ![hist_fares](./Images/hist_fare.png)
 
@@ -43,13 +43,13 @@ And, we created a histogram (Figure 1.2) of total fares distribution to better u
 
 <br/>
 
-The above used charts and methods are an easy way of using Pandas and Matplotlib libraries to have a quick overview of the dataset in a short period of time. Knowing what is in our dataset will allow us to clean it, expand our exploratory analysis if needed, extract data and at the end produce a more robust analysis.
+The above used charts and methods are an easy way of using Pandas and Matplotlib libraries to have a quick overview of the dataset in a short period of time. Knowing what is in our dataset will allow us to clean it, expand our exploratory analysis if needed, extract data, and produce a more robust analysis at the end.
 
 ### Results
 
 <br/>
 
-After our analysis we were able to created a PyBer summary DataFrame that summarized: The total number of rides for each city type, The total number of drivers for each city type, The sum of the fares for each city type is retrieved, ​The average fare per ride for each city type is calculated, The average fare per driver for each city type is calculated as shown in (Figure 1.4).
+After our analysis, we were able to created a PyBer summary DataFrame that summarized: the total number of rides for each city type, the total number of drivers for each city type, the sum of the fares for each city type is retrieved, the average fare per ride for each city type is calculated, the average fare per driver for each city type is calculated as shown in (Figure 1.4).
 
 ![pyber_summary](./Images/pyber_ride_summary_df.png)
 
@@ -76,7 +76,7 @@ and with this data we created a pie chart of the total rides per type. (Figure 1
 <br/>
 
 
-Finally we created a visualization of the "Total Fare by City Type" using a multiple-line plot as shown in Figure 1.6.
+Finally, we created a visualization of the "Total Fare by City Type" using a multiple-line plot as shown in Figure 1.6.
 
 <br/>
 
@@ -88,7 +88,7 @@ Finally we created a visualization of the "Total Fare by City Type" using a mult
 
 ## Summary
 
-As we can observe in our analysis the Urban market is more profitable for the company as the market is bigger in Urban areas. This can be seen in Figure 1.5, the Urban market represents 68.4% of the total rides. There are also many more drivers in Urban cities vs suburban and rural areas, this allows them to offer better rates and be more profitable per volume. 
+As we can observe in our analysis, the Urban market is more profitable for the company as the market is bigger in Urban areas. This can be seen in Figure 1.5, the Urban market represents 68.4% of the total rides. There are also many more drivers in Urban cities vs suburban and rural areas, this allows them to offer better rates and be more profitable per volume. 
 If we look at Fig. 1.5, we notice that there is a disparity in the market among the city types. In an effort to reduce the disparity in the market the client could do the following:
 
 - Improve marketing in rural areas to increase the demand for the service.
