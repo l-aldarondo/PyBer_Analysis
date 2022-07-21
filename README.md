@@ -76,11 +76,11 @@ and with this data we created a pie chart of the total rides per type. (Figure 1
 <br/>
 
 
-Finally we created a visualization of the "Total Fare by City Type" using a multi-line plot as shown in Figure 1.6.
+Finally we created a visualization of the "Total Fare by City Type" using a multiple-line plot as shown in Figure 1.6.
 
 <br/>
 
-![multiline _chart](./analysis/PyBer_fare_summary.png)
+![multiple-line _chart](./analysis/PyBer_fare_summary.png)
 <sub>Figure 1.6 Multiline chart
 
 <br/>
